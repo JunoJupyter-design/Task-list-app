@@ -25,5 +25,34 @@ Setup and Installation
 To run this project locally, follow these steps:
 
 1. Clone the repository:
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/JunoJupyter-design/Task-list-app
 cd task-list-app
+
+
+2. Setup the Backend:
+
+cd backend
+npm install
+
+Create a .env file in the backend directory.
+
+Add your MongoDB connection string to the .env file:
+MONGO_URI="your_mongodb_connection_string"
+
+
+3. Setup the Frontend:
+
+cd ../frontend
+npm install
+
+4. Run the Application:
+
+In one terminal, run the backend server:
+
+cd ../backend
+node server.js
+
+In a second terminal, run the frontend React app:
+
+cd ../frontend
+npm start
