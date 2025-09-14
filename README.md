@@ -3,7 +3,7 @@ This is a complete task management application built with the MERN stack (MongoD
 
 
 ScreenShot:
-![Task List App Screenshot](./frontend/public/Screenshot 2025-09-14 at 10.01.13.png)
+![Task List App Screenshot](./frontend/public/task-list-screenshot.png)
 
 Features
 Full CRUD Functionality: Create, Read, Update, and Delete tasks.
